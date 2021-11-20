@@ -1,0 +1,32 @@
+programa
+{
+	
+	funcao inicio()
+	{
+          inteiro num
+          
+	
+		escreva("Digite o seu numero para saber se ele é Par ou impar : ")
+		leia(num)
+
+		se (num % 2 == 0 ){
+
+		escreva("seu numero "+num+" é Par")
+		
+	}
+	senao {
+		escreva("seu numero " +num+ " impar ")
+	}
+}
+}
+/* $$$ Portugol Studio $$$ 
+ * 
+ * Esta seção do arquivo guarda informações do Portugol Studio.
+ * Você pode apagá-la se estiver utilizando outro editor.
+ * 
+ * @POSICAO-CURSOR = 178; 
+ * @PONTOS-DE-PARADA = ;
+ * @SIMBOLOS-INSPECIONADOS = ;
+ * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
+ * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
+ */
